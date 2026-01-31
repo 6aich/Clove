@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clove Shipping</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#ffffff;
+      color:#111;
+      text-align:center;
+    }
+    header{
+      padding:40px 20px;
+      font-size:48px;
+      font-weight:bold;
+      letter-spacing:2px;
+    }
+    nav{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      margin-bottom:40px;
+      flex-wrap:wrap;
+    }
+    nav a{
+      text-decoration:none;
+      color:white;
+      padding:12px 20px;
+      border:2px solid #aaa;
+      border-radius:12px;
+      transition:0.3s;
+    }
+    nav a:hover{
+      background:#ffffff22;
+      transform:scale(1.05);
+    }
+    .card{
+      max-width:700px;
+      margin:0 auto 40px;
+      background:#111;
+      padding:30px;
+      border-radius:20px;
+      box-shadow:0 0 20px #000;
+      text-align:left;
+    }
+    .card h2{
+      text-align:center;
+    }
+    footer{
+      margin-top:40px;
+      padding:20px;
+      font-size:14px;
+      opacity:0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🚢 Clove Shipping</header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#orders">Orders</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="card" id="about">
+    <h2>About Us</h2>
+    <p><strong>Founded:</strong> 2026</p>
+    <p><strong>What is Clove?</strong><br>
+    Clove is an online-only shipping company designed to make sending packages simple, fast, and reliable.</p>
+    <p><strong>Important:</strong><br>
+    You can only place orders online. Clove does not accept in-person or phone orders.</p>
+  </div>
+
+  <div class="card" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Domestic shipping</li>
+      <li>International shipping</li>
+      <li>Package tracking</li>
+      <li>Secure online payments</li>
+    </ul>
+  </div>
+
+  <div class="card" id="orders">
+    <h2>Orders</h2>
+    <p>All orders must be placed through this website.</p>
+    <p>Create an order, print your label, and track your shipment online.</p>
+    <p><strong>Availability:</strong><br>
+    Clove is available to users all around the world. Anyone with internet access can place an order online.</p>
+  </div>
+
+  <div class="card" id="signup">
+    <h2>Sign Up</h2>
+    <p>Create a Clove account to place orders. Sign up is online only.</p>
+
+    <form>
+      <label>📧 Email Address</label><br>
+      <input type="email" placeholder="you@example.com" required><br><br>
+
+      <label>🆔 User ID</label><br>
+      <input type="text" placeholder="Create your ID" required><br><br>
+
+      <label>📞 Phone Number <em>(optional)</em></label><br>
+      <input type="tel" placeholder="e.g. +61 400 000 000"><br><br>
+
+      <button type="submit">Create Account</button>
+    </form>
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Email support only: <strong>support@clove.com</strong></p>
+    <p>No physical offices or walk-in locations.</p>
+  </div>
+
+  <footer>
+    © 2026 Clove Shipping · Online Orders Only
+  </footer>
+
+</body>
+</html>
